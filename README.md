@@ -4,7 +4,7 @@
 Does working full-time at minimum wage cover the average cost of living in New York, New Jersey, and Connecticut in 2025?
 
 ## Claim (Hypothesis) (1 sentence; can be wrong)
-Working full-time at minimum wage does not cover the basic cost of living everywhere in the tri-state area in 2025 (Downstate NY falls short, and the margin varies by region).
+Working full-time at minimum wage does not cover the basic cost of living everywhere in the tri-state area in 2025.
 
 ## Audience (who is this for?)
 College students, recent grads, and early-career workers comparing affordability across the tri-state area.
