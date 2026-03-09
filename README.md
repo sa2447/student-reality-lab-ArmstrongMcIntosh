@@ -99,7 +99,7 @@ College students, recent grads, and early-career workers comparing affordability
 	- It exposes the *magnitude* of the gap (not just the ranking).
 
 ## Prototype App (Sprint 3 + Sprint 4)
-- Deployment URL: (add after deploy)
+- Deployment URL: https://student-reality-lab.vercel.app/
 
 Run locally:
 - If this folder is the repo root: `cd .`
