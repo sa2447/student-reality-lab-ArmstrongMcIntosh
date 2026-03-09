@@ -1,0 +1,75 @@
+{
+  "year": 2025,
+  "retrieved_on": "2026-03-08",
+  "metric_definitions": {
+    "monthly_income": "hourly_min_wage * hours_per_week * 4.33 (4.33 ≈ 52/12)",
+    "monthly_cost_of_living": "housing (HUD FMR gross rent) + food (USDA TFP) + car operating (BLS CEX proxy)",
+    "income_gap": "monthly_income - monthly_cost_of_living"
+  },
+  "rows": [
+    {
+      "year": 2025,
+      "state": "NY",
+      "region": "Downstate",
+      "hours_per_week": 40,
+      "hourly_min_wage": 16.5,
+      "monthly_income": 2857.8,
+      "monthly_cost_of_living": 3213.95,
+      "income_gap": -356.15,
+      "coverage_ratio": 0.89,
+      "costs": {
+        "housing_monthly_1br_fmr": 2309.31,
+        "food_monthly_tfp_1_adult": 333.72,
+        "car_operating_monthly": 570.92
+      }
+    },
+    {
+      "year": 2025,
+      "state": "NY",
+      "region": "Upstate",
+      "hours_per_week": 40,
+      "hourly_min_wage": 15.5,
+      "monthly_income": 2684.6,
+      "monthly_cost_of_living": 2069.79,
+      "income_gap": 614.81,
+      "coverage_ratio": 1.3,
+      "costs": {
+        "housing_monthly_1br_fmr": 1165.15,
+        "food_monthly_tfp_1_adult": 333.72,
+        "car_operating_monthly": 570.92
+      }
+    },
+    {
+      "year": 2025,
+      "state": "NJ",
+      "region": "Statewide (most employees)",
+      "hours_per_week": 40,
+      "hourly_min_wage": 15.49,
+      "monthly_income": 2682.87,
+      "monthly_cost_of_living": 2604.75,
+      "income_gap": 78.12,
+      "coverage_ratio": 1.03,
+      "costs": {
+        "housing_monthly_1br_fmr": 1700.11,
+        "food_monthly_tfp_1_adult": 333.72,
+        "car_operating_monthly": 570.92
+      }
+    },
+    {
+      "year": 2025,
+      "state": "CT",
+      "region": "Statewide",
+      "hours_per_week": 40,
+      "hourly_min_wage": 16.35,
+      "monthly_income": 2831.82,
+      "monthly_cost_of_living": 2393.2,
+      "income_gap": 438.62,
+      "coverage_ratio": 1.18,
+      "costs": {
+        "housing_monthly_1br_fmr": 1488.56,
+        "food_monthly_tfp_1_adult": 333.72,
+        "car_operating_monthly": 570.92
+      }
+    }
+  ]
+}

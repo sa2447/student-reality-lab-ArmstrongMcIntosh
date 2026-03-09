@@ -1,0 +1,5 @@
+year,state,region,effective_date,hourly_min_wage,housing_monthly_1br_fmr,food_monthly_tfp_1_adult,car_operating_monthly
+2025,NY,Downstate,2025-01-01,16.5,2309.31,333.72,570.92
+2025,NY,Upstate,2025-01-01,15.5,1165.15,333.72,570.92
+2025,NJ,Statewide (most employees),2025-01-01,15.49,1700.11,333.72,570.92
+2025,CT,Statewide,2025-01-01,16.35,1488.56,333.72,570.92

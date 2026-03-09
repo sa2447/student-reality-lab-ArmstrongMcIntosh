@@ -1,0 +1,105 @@
+{
+  "year": 2025,
+  "retrieved_on": "2026-03-08",
+  "definition": {
+    "household": "1 adult, 0 children",
+    "cost_of_living": {
+      "housing": "HUD FY25 FMR 1-bedroom (population-weighted by pop2022). Note: FMR is defined as gross rent (rent + utilities).",
+      "food": "USDA Thrifty Food Plan (U.S. average), January 2025; adult 20-50 avg(F/M) adjusted +20% for 1-person household",
+      "car_operating": "Car operating cost proxy from BLS Consumer Expenditure Surveys (CEX) multi-year means (All consumer units), using 2024 annual means as a proxy for 2025."
+    },
+    "ny_handling": "Split NY into Downstate vs Upstate (Downstate = NYC + Nassau + Suffolk + Westchester counties; Upstate = remainder)"
+  },
+  "sources": {
+    "minimum_wage": [
+      {
+        "name": "NYSDOL - History of the Minimum Wage in New York State",
+        "url": "https://dol.ny.gov/history-minimum-wage-new-york-state"
+      },
+      {
+        "name": "NJDOL press release - NJ minimum wage effective Jan 1, 2025",
+        "url": "https://www.nj.gov/labor/lwdhome/press/2024/20241008_minwage.shtml"
+      },
+      {
+        "name": "CT Governor press release - CT minimum wage effective Jan 1, 2025",
+        "url": "https://portal.ct.gov/governor/news/press-releases/2024/09-2024/governor-lamont-announces-minimum-wage-will-increase-in-2025/"
+      }
+    ],
+    "hud_fmr": {
+      "name": "HUD FY2025 Fair Market Rents (FMR) - bulk XLSX",
+      "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2025/FY25_FMRs.xlsx"
+    },
+    "usda_tfp": {
+      "name": "USDA Thrifty Food Plan (U.S. average) - January 2025",
+      "url": "https://fns-prod.azureedge.us/sites/default/files/resource-files/Cost_Of_Food_Thrifty_Food_Plan_January_2025.pdf",
+      "extracted": {
+        "female_20_50_monthly_4_person_household": 247,
+        "male_20_50_monthly_4_person_household": 309.2,
+        "avg_adult_monthly_4_person_household": 278.1,
+        "one_person_adjustment_multiplier": 1.2,
+        "derived_one_adult_monthly": 333.72
+      }
+    },
+    "bls_cex_car_operating": {
+      "name": "BLS Consumer Expenditure Surveys (CEX) publication tables - All consumer units, multi-year means (2021-2024)",
+      "url": "https://www.bls.gov/cex/tables/calendar-year/mean/cu-all-multi-year-2021-2024.xlsx",
+      "year_used_as_proxy": 2024,
+      "extracted": {
+        "gasoline_and_other_fuels_annual_usd": 2645,
+        "other_vehicle_expenses_annual_usd": 4206,
+        "derived_car_operating_annual_usd": 6851,
+        "derived_car_operating_monthly_usd": 570.92
+      }
+    }
+  },
+  "rows": [
+    {
+      "year": 2025,
+      "state": "NY",
+      "region": "Downstate",
+      "effective_date": "2025-01-01",
+      "hourly_min_wage": 16.5,
+      "costs": {
+        "housing_monthly_1br_fmr": 2309.31,
+        "food_monthly_tfp_1_adult": 333.72,
+        "car_operating_monthly": 570.92
+      }
+    },
+    {
+      "year": 2025,
+      "state": "NY",
+      "region": "Upstate",
+      "effective_date": "2025-01-01",
+      "hourly_min_wage": 15.5,
+      "costs": {
+        "housing_monthly_1br_fmr": 1165.15,
+        "food_monthly_tfp_1_adult": 333.72,
+        "car_operating_monthly": 570.92
+      }
+    },
+    {
+      "year": 2025,
+      "state": "NJ",
+      "region": "Statewide (most employees)",
+      "effective_date": "2025-01-01",
+      "hourly_min_wage": 15.49,
+      "costs": {
+        "housing_monthly_1br_fmr": 1700.11,
+        "food_monthly_tfp_1_adult": 333.72,
+        "car_operating_monthly": 570.92
+      }
+    },
+    {
+      "year": 2025,
+      "state": "CT",
+      "region": "Statewide",
+      "effective_date": "2025-01-01",
+      "hourly_min_wage": 16.35,
+      "costs": {
+        "housing_monthly_1br_fmr": 1488.56,
+        "food_monthly_tfp_1_adult": 333.72,
+        "car_operating_monthly": 570.92
+      }
+    }
+  ]
+}
