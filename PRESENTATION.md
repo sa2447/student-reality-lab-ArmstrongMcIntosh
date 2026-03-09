@@ -48,6 +48,6 @@ The key metric is **Income Gap** = monthly income − monthly cost.
 At **40 hours/week**, some regions show a negative gap even for this basic bundle, especially where housing costs are higher.
 The slider demonstrates how sensitive affordability is to hours worked—and where additional hours still may not fully close the gap.
 
-## Reflection / Limitations (≈20–30s)
+## Reflection / Limitations 
 This benchmark is intentionally narrow and does **not** include taxes, healthcare, childcare, debt payments, or savings, so the real-world margin can be tighter.
 The purpose is to provide a consistent, license-safe baseline for comparison—not a full household budget.
