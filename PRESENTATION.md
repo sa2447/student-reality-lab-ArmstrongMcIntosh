@@ -1,9 +1,9 @@
 # Presentation Script (STAR)
 
-## Situation (≈20–30s)
+## Situation 
 Minimum wage is usually discussed as a single hourly number, but affordability is a monthly problem: rent and food are paid in monthly cycles, and transportation costs don’t scale cleanly with hours worked. In the NY/NJ/CT area, the headline minimum wage is also not “one size fits all” because New York’s minimum wage differs Downstate vs Upstate.
 
-## Task (≈20–30s)
+## Task 
 Build a license-safe, reproducible comparison of minimum-wage affordability across four regions:
 - NY (Downstate)
 - NY (Upstate)
@@ -12,7 +12,7 @@ Build a license-safe, reproducible comparison of minimum-wage affordability acro
 
 The benchmark needed to be consistent across regions and grounded in public/government sources.
 
-## Action (≈60–90s)
+## Action 
 I created a simple “basic monthly cost of living” benchmark and a small interactive app that recomputes the results from raw data.
 
 **Major engineering decision**
@@ -32,7 +32,7 @@ I created a simple “basic monthly cost of living” benchmark and a small inte
 - Focus Region selector: highlights one region across all views
 - Hours/week slider (20–60): changes computed monthly income and the Income Gap view
 
-## Result (≈30–45s)
+## Result 
 The key metric is **Income Gap** = monthly income − monthly cost.
 
 **Headline numbers (40 hours/week)**
